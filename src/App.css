@@ -1,0 +1,45 @@
+main {
+  position: relative;
+  z-index: 1;
+}
+
+section {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Section titles */
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 3rem;
+}
+
+/* Fade-up animation utility */
+.fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+/* Divider line */
+.accent-line {
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  margin-bottom: 1.5rem;
+}
