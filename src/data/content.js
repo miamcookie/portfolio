@@ -12,7 +12,7 @@ export const content = {
       cta: 'Embauche-moi',
     },
     hero: {
-      badge:       'Disponible — Stage dès Avril 2026',
+      badge:       'Disponible — Stage dès Mai 2027',
       subtitle:    'Étudiant BUT Informatique · IUT Montreuil',
       description: "Développeur en 3ième année de BUT Informatique, passionné par la création d'applications et l'architecture logicielle. Recherche un stage en développement de 12 semaines.",
       cta1:        'Voir mes projets',
@@ -170,7 +170,7 @@ export const content = {
       cta: 'Hire me',
     },
     hero: {
-      badge:       'Available — Internship from April 2026',
+      badge:       'Available — Internship from May 2027',
       subtitle:    'Computer Science Student · IUT Montreuil',
       description: "Thrid-year Bachelor of Technology in Computer Science, passionate about building applications and software architecture. Looking for an 12-week internship.",
       cta1:        'See my projects',
