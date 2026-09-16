@@ -18,7 +18,7 @@ export default function App() {
     <>
       <Background />
       <Navbar />
-      <NavDots sections={['hero','about','education','skills','projects','Experience','contact']} />
+      <NavDots sections={['hero','about','education','skills','projects','experience','contact']} />
       <main>
         <Hero />
         <About />
