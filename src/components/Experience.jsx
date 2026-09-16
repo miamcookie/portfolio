@@ -76,7 +76,7 @@ function Modal({ Experience, onClose }) {
     )
 }
 
-export default function Projects() {
+export default function Experience() {
     const { t } = useLang()
     const projects = (t.Experience.items || []).map(p => ({
         ...p,
