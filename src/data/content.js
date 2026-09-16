@@ -7,6 +7,7 @@ export const content = {
         { id: 'education',  label: 'Formation' },
         { id: 'skills',     label: 'Compétences' },
         { id: 'projects',   label: 'Projets' },
+        { id: 'experience',   label: 'Experience' },
         { id: 'contact',    label: 'Contact' },
       ],
       cta: 'Embauche-moi',
@@ -72,6 +73,7 @@ export const content = {
     Experience: {
       label: '// 05 — Experience Professionnel',
       title: "Où j'ai travailler",
+      github:     'Voir sur GitHub',
       close:      'Fermer',
       noImg:      '[ Pas de screenshot disponible ]',
       stackLabel: 'Stack utilisée',
@@ -80,6 +82,7 @@ export const content = {
           year: '2026',
           title: 'Caisse National d Assurance Retraite',
           desc: "Migration d'une application vers une nouvelle version",
+          details:"Migration de script pl/sql en procédure stockée pour que la nouvelle application puisse les utilisé",
           tech: ['PL/SQL', 'Java'],
           color: '#61dafb',
         }
