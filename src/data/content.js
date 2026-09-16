@@ -71,7 +71,7 @@ export const content = {
     },
     Experience: {
       label: '// 05 — Experience Professionnel',
-      title: "Ce que j'ai construit",
+      title: "Où j'ai travailler",
       close:      'Fermer',
       noImg:      '[ Pas de screenshot disponible ]',
       stackLabel: 'Stack utilisée',
@@ -152,7 +152,7 @@ export const content = {
       ],
     },
     contact: {
-      label:       '// 05 — contact',
+      label:       '// 06 — contact',
       title:       'Prenons contact',
       intro:       "Je recherche un stage en développement informatique de 12 semaines à partir de",
       introDate:   'Mai 2027',
