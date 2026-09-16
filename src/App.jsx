@@ -10,6 +10,7 @@ import Navbar     from './components/Navbar'
 import Footer     from './components/Footer'
 import ScrollTop  from './components/ScrollTop'
 import Background from './components/Background'
+import Experience from './components/Experience'
 import './App.css'
 
 export default function App() {
@@ -17,13 +18,14 @@ export default function App() {
     <>
       <Background />
       <Navbar />
-      <NavDots sections={['hero','about','education','skills','projects','contact']} />
+      <NavDots sections={['hero','about','education','skills','projects','Experience','contact']} />
       <main>
         <Hero />
         <About />
         <Education />
         <Skills />
         <Projects />
+        <Experience />
         <Contact />
       </main>
       <Footer />

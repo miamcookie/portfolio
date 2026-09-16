@@ -69,6 +69,22 @@ export const content = {
         { name: 'Git & DevOps', pct: 86, color: 'fill-gold' },
       ],
     },
+    Experience: {
+      label: '// 05 — Experience Professionnel',
+      title: "Ce que j'ai construit",
+      close:      'Fermer',
+      noImg:      '[ Pas de screenshot disponible ]',
+      stackLabel: 'Stack utilisée',
+      items: [
+        {
+          year: '2026',
+          title: 'Caisse National d Assurance Retraite',
+          desc: "Migration d'une application vers une nouvelle version",
+          tech: ['PL/SQL', 'Java'],
+          color: '#61dafb',
+        }
+      ],
+    },
     projects: {
       label: '// 04 — projets',
       title: "Ce que j'ai construit",
