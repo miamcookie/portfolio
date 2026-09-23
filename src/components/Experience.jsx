@@ -88,7 +88,7 @@ export default function Experience() {
     const [selected, setSelected] = useState(null)
 
     return (
-        <section id="projects">
+        <section id="experience">
             <p className="section-label">{t.Experience.label}</p>
             <h2 className="section-title">{t.Experience.title}</h2>
             <div className="accent-line" />
